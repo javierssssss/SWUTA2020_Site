@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SWUTA2020"
+    }
+  },
+  "defaultProject": "SWUTA2020",
+  "cli": {
+    "analytics": false
+  }
 }
