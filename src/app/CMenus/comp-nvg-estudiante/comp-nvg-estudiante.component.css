@@ -1,0 +1,9 @@
+#mainCont{
+    width: 950 px;
+    height: 120px;
+    border: 5px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 

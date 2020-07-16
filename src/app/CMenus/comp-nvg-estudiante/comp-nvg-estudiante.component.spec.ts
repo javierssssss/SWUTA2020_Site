@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NvgEstudianteComponent } from './nvg-estudiante.component';
+import { CompNvgEstudianteComponent } from './comp-nvg-estudiante.component';
 
-describe('NvgEstudianteComponent', () => {
-  let component: NvgEstudianteComponent;
-  let fixture: ComponentFixture<NvgEstudianteComponent>;
+describe('CompNvgEstudianteComponent', () => {
+  let component: CompNvgEstudianteComponent;
+  let fixture: ComponentFixture<CompNvgEstudianteComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NvgEstudianteComponent ]
+      declarations: [ CompNvgEstudianteComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NvgEstudianteComponent);
+    fixture = TestBed.createComponent(CompNvgEstudianteComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
